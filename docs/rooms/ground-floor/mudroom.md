@@ -20,6 +20,5 @@ Currently being updated, expected to be 5"
 - 12" x 24" format
 
 ## Furniture
-
-### Lighting
+### :bulb: Lighting
 - Unknown, ugly pendant lighting
