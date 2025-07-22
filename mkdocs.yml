@@ -1,0 +1,70 @@
+site_name: KM House Documentation
+nav:
+  - House Items:
+      - Floor Plans: house-items/floor-plans.md
+      - Utilities: house-items/utilities.md
+      # - Maintenance: house-items/maintenance.md
+  - Rooms:
+      - Ground Floor:
+          - Mudroom: rooms/ground-floor/mudroom.md
+          - Hallway: rooms/ground-floor/hallway.md
+          - Front Office: rooms/ground-floor/front-office.md
+          - Kitchen: rooms/ground-floor/kitchen.md
+          - Laundry Room: rooms/ground-floor/laundry-room.md
+          - Bathroom: rooms/ground-floor/bathroom.md
+          - Living Room: rooms/ground-floor/living-room.md
+      - Upstairs:
+          - Master Bedroom: rooms/upstairs/master-bedroom.md
+          - Master Ensuite: rooms/upstairs/master-ensuite.md
+          - Guest Bathroom: rooms/upstairs/guest-bathroom.md
+          - Hallway: rooms/upstairs/hallway.md
+          - Office: rooms/upstairs/office.md
+          - Nursery: rooms/upstairs/nursery.md
+theme:
+  name: material
+  icon:
+    # logo: :bootstrap-envelope-paper:
+  features:
+    - content.tooltips
+    - navigation.indexes
+    - navigation.top
+  palette:
+    # light mode
+    - scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # dark mode
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+      toc_depth: 3
+plugins:
+  - search
