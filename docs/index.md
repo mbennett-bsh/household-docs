@@ -1,17 +1,37 @@
-# Welcome to MkDocs
+# 🏡 Welcome to K&M House Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome! This site is a living reference for everything about the house—floor plans, dimensions, paint colors, finishes, utilities, and maintenance details.  
+It’s designed to keep all important information in **one easy-to-browse place**.  
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 📖 What You’ll Find Here
 
-## Project layout
+- **Floor Plans** → Visual layouts for each floor  
+- **Utilities** → Electrical, plumbing, HVAC, etc
+- **Room Details** → Paint colors, finishes, and fixtures  
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+## 🗂 How It’s Organized
+
+- **Rooms**  
+  Organized by **floor**, each room page includes its size, finishes, and key details.  
+
+- **House Items**  
+  General details like floor plans, utilities, and maintenance schedules live here.  
+
+---
+
+## 🔍 Quick Links
+
+- [📐 Floor Plans](house-items/floor-plans.md)  
+- [🎨 First Room](rooms/ground-floor/mudroom.md)  
+- [⚡ Utilities](house-items/utilities.md)  
+
+---
+
+> 💡 *Tip: Use the search bar at the top to quickly find any room, color, or fixture.*  
+
+---
+
